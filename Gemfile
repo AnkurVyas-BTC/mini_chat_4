@@ -9,6 +9,8 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
+gem 'faye-rails', '~> 2.0'
+gem 'thin'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
