@@ -1,6 +1,6 @@
 MiniChat4::Application.routes.draw do
 
-  resources :comments, only: [:new, :create]
+  resources :comments, only: [:new, :create, :index]
 
   get '/auth/:provider/callback', to: 'sessions#create'
   get '/auth/failure', to: 'sessions#auth_fail'
